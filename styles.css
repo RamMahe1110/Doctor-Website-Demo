@@ -6,33 +6,127 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  font-family: "Solway", serif;
 }
 
 header {
+  position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/dr.png");
+    url("./assets/18416.jpg");
   background-size: cover;
-
-  height: 100vh;
+  height: 80vh;
   color: rgb(218, 218, 218);
 }
 
 header .main-nav {
   display: flex;
-  padding: 40px;
-  max-width: 1500px;
+  padding: 20px;
+  max-width: 70%;
   margin: auto;
 }
 
 .main-nav .brand-name-logo {
   width: 50%;
+  display: flex;
+}
+
+.brand-name-logo img {
+  width: 35px;
+  height: auto;
 }
 
 .main-nav-items {
   width: 50%;
   display: flex;
+  align-items: center;
 }
 
 .main-nav-item {
   width: 20%;
+  text-align: center;
+}
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.header-content h1 {
+  font-size: 4.5vw;
+
+  padding: 0 0 10px 0;
+  text-align: center;
+}
+
+.header-content .heading-sec {
+  font-size: 1.5vw;
+  padding: 0 0 70px 0;
+  text-align: center;
+}
+
+.header-content .contact-btn {
+  background: rgb(9, 182, 23);
+  padding: 20px;
+  font-size: 1vw;
+  border: none;
+  width: 25%;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+}
+
+/*------------*/
+
+.about-main-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 100px 0;
+}
+
+.about-content {
+  flex: 1;
+  box-shadow: rgba(19, 15, 235, 0.1) 2px 4px 40px;
+  padding: 0 30px;
+  border-radius: 5px;
+}
+
+.about-content h1 {
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+
+.about-content .green-line {
+  width: 10%;
+  border-bottom: 2px solid rgb(9, 182, 23);
+  margin: 0 auto 30px auto;
+}
+
+.about-content p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.about-content .location-btn {
+  padding: 10px 20px;
+  text-align: center;
+  width: 40%;
+  border-radius: 50px;
+  margin: 40px auto;
+  background: rgb(9, 182, 23);
+  color: #ffffff;
+}
+
+.about-main-content .img {
+  flex: 1;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.about-main-content .img img {
+  width: 80%;
+  height: auto;
 }
